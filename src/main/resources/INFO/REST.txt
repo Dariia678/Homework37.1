@@ -1,0 +1,15 @@
+# REST API examples for Employee project
+
+# Create Employee
+POST /employees
+Body: {"id":1,"name":"John Doe","position":"Manager","phone":"123-456-7890"}
+
+# Get Employee by ID
+GET /employees?id=1
+
+# Update Employee
+PUT /employees
+Body: {"id":1,"name":"Jane Doe","position":"Manager","phone":"123-456-7890"}
+
+# Delete Employee by ID
+DELETE /employees?id=1
